@@ -25,7 +25,7 @@
             </DataGrid.Columns>
         </DataGrid>
         <Button Content="Сохранить " Command="{Binding SaveChangesCommand}" HorizontalAlignment="Left" VerticalAlignment="Bottom"  Background="Green" Margin="10,0,0,10" Width="63" Click="Button_Click" />
-        <Button Content="Удалить " Command="{Binding DeleteCommand}" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="250,0,0,10" Background="Green" Foreground="Black" />
+        <Button Content="Удалить " Command="{Binding DeleteCommand}" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="250,0,0,10" Background="Green" Foreground="Black" Click="Button_Click_1" />
 
     </Grid>
 </UserControl>
